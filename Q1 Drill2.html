@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Rate a Movie</title>
+
+    <style>
+
+
+    
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            text-align: center;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            width: 90%;
+            margin: 15px auto;
+            padding: 8px;
+            border-radius: 5px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 30px;
+        }
+
+        .description {
+            font-family: monospace;
+            margin: 15px;
+        }
+
+        .movie-image {
+            width: 250px;
+            height: auto;
+            margin: 10px auto 20px;
+            display: block;
+        }
+
+        .movie-info {
+            width: 350px;
+            margin: 0 auto;
+            text-align: left;
+        }
+
+        .movie-info h2 {
+            margin-bottom: 10px;
+        }
+
+        .movie-info input {
+            margin-bottom: 8px;
+        }
+
+        .rating {
+            margin-top: 10px;
+        }
+
+        .review {
+            margin-top: 30px;
+        }
+
+        textarea {
+            padding: 10px;
+            width: 350px;
+            height: 100px;
+            display: block;
+            margin: 10px auto;
+        }
+
+        input[type="submit"] {
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        .details {
+            margin-top: 15px;
+        }
+
+           section{
+        background-color: #265fa5;
+        padding: 20px;
+        border-radius: 14px;
+        width: 600px;
+        margin: auto;
+        box-shadow: 0 4px 10px rgba(254, 253, 255, 0.985);
+    }
+
+    
+    </style>
+</head>
+
+<body>
+
+    <section
+
+
+    <header>
+        <h1>RATE A MOVIE</h1>
+    </header>
+
+    <p class="description">
+        Fast and the furious 1 being the best racing and action films of its time.
+    </p>
+
+    <img
+        class="movie-image"
+        src="https://image.tmdb.org/t/p/original/kf17mvLnyFitDBoCm6ymISDfkxF.png"
+        alt="Fast and Furious"
+    >
+
+    <div class="movie-info">
+
+        <h2>Fast and the Furious</h2>
+
+        <input type="text" placeholder="Movie title">
+
+        <br>
+
+       <label for="genre">Genres</label>
+        <br>
+        <input type="" id="genre 1"name="genre 1"
+        <label for="genre">drama</label>
+        <br>
+        <input type="" id="genre 1"name="genre 1"
+        <label for="genre">Action</label>
+        <br>
+        <input type="" id="genre 1"name="genre 1"
+        <label for="rate">Comedy</label>
+        <br>
+
+        <div class="rating">
+            <input type="radio" name="rating"> ⭐⭐⭐⭐⭐
+
+            <br>
+
+            <input type="radio" name="rating"> ⭐⭐⭐⭐
+
+            <br>
+
+            <input type="radio" name="rating"> ⭐⭐⭐
+
+            <br>
+
+            <input type="radio" name="rating"> ⭐⭐
+
+            <br>
+
+            <input type="radio" name="rating"> ⭐
+            
+        </div>
+
+    </div>
+
+    <form class="review">
+
+        <textarea
+            id="review"
+            name="review"
+            placeholder="Write a review"
+        ></textarea>
+
+        <input
+            type="submit"
+            id="submit"
+            value="Submit Review"
+        >
+
+        <p class="details">
+            Click
+            <a href="https://www.imdb.com/" target="_blank">
+                here
+            </a>
+            for more movie details.
+        </p>
+
+    </form>
